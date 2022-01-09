@@ -1,0 +1,10 @@
+1) ensemble_ts_t3C_restor.txt
+2) climate_cost_optimization.txt
+3) climate_cost_optimization_CC.txt
+4) permanence_map2.txt
+
+# PLotting
+plot_baseline_Cuptake.R
+plot_carbon_TS_individual.R
+plot_bp_t3C_scenarios.R
+plot_bp_t3C_scenarios_CC.R
