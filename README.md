@@ -2,7 +2,7 @@
 
 Package containing output from LPJ-LMfire simulations of tropical forest restoration under different climate change and CO<sub>2</sub> fertilization scenarios and code to create time series and various maps as shown in the manuscript "Impact of future climate change on tropical forest restoration" (DOI: XXXX).
 
-Extraction scripts are packaged as bash files calling NCO and CDO routines. All that is (theoretically) needed is to set `$DATADIR` (location of the downloaded data) and `$WORKDIR` (location where the output should be stored). Both can also be set to the same directory. The R scripts require the following libraries: `ncdf4`, `ggplot2`, and `reshape`.  
+Extraction scripts are packaged as bash files calling NCO and CDO routines. All that is (theoretically) needed is to set `$DATADIR` (location of the downloaded data) and `$WORKDIR` (location where the output should be stored). Both can also be set to the same directory. The `R` scripts require the following libraries: `ncdf4`, `ggplot2`, and `reshape`.  
 
 The general workflow is as follows:
 1) extract the carbon in the regrowing tile for each time step/scenario for the restoration areas: `ensemble_ts_t3C_restor.sh`
