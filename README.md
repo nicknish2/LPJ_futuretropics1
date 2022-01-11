@@ -16,8 +16,6 @@ The general workflow is as follows:
 7) create the box-whisker plots for Fig. 2 - `plot_bp_t3C_scenarios.R`
 8) plot time series for the extended data figure 1 - `plot_carbon_TS_individual.R`
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
