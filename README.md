@@ -1,10 +1,12 @@
 # LPJ-LMfire model output and postprocessing code for tropical forest restoration experiments
 
-This repository contains output from simulations performed with the LPJ-LMfire dynamic global vegetation model to investigate tropical forest restoration under different climate change and CO<sub>2</sub> fertilization scenarios. This output and included code were used to create time series plots and various maps shown in the paper "Impact of future climate change on tropical forest restoration" (DOI: in process).
+This repository contains output from simulations performed with the LPJ-LMfire dynamic global vegetation model to investigate tropical forest restoration under different climate change and CO<sub>2</sub> fertilization scenarios. This output and included code were used to create time series plots and various maps shown in Koch and Kaplan (2022).
+
+Koch, A., & Kaplan, J. O. (2022). Tropical forest restoration under future climate change. _Nature Climate Change_, 12, 279-283. [doi:10.1038/s41558-022-01289-6](https://doi.org/10.1038/s41558-022-01289-6)
 
 The raw model output in this repository amounts to **more than 56GB of data**. Data are stored using the Git Large File Storage (Git LFS) extension. Cloning the repository requires the user to have `git lfs` installed.
 
-The model processing scripts are packaged as bash files calling NCO and CDO routines. All that is (theoretically) needed is to set `$DATADIR` (location of the downloaded data) and `$WORKDIR` (location where the output should be stored). Both can also be set to the same directory. The `R` scripts require the following libraries: `ncdf4`, `ggplot2`, and `reshape`.  
+The model processing scripts are packaged as `bash` shell scripts calling [NCO](http://nco.sourceforge.net) and [CDO](https://code.mpimet.mpg.de/projects/cdo) routines. All that is (theoretically) needed is to set `$DATADIR` (location of the downloaded data) and `$WORKDIR` (location where the output should be stored). Both can also be set to the same directory. The `R` scripts require the following libraries: `ncdf4`, `ggplot2`, and `reshape`.  
 
 The general workflow is as follows:
 1) extract the carbon in the regrowing tile for each time step/scenario for the restoration areas: `ensemble_ts_t3C_restor.sh`
