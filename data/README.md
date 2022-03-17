@@ -4,7 +4,7 @@ The LPJ-LMfire model output in this archive are named with the following structu
 `GCM` `Shared Socioeconomic Pathway (SSP) scenario` `resolution` `extent` `experiment` `[CO2]` `[fire]`
 
 For example, the file `AWI-CM-1-1-MR_ssp585_30min_global_restor_fixco2_2014_fire.nc` has the following attributes:
-| Label         | Value         | Note                                                          |
+| Label         | Value         | Description                                                   |
 |---------------|---------------|---------------------------------------------------------------|
 | Climate model | AWI-CM-1-1-MR | Alfred Wegener Institute Climate Model v1.1 Medium Resolution |
 | SSP           | 585           | SSP 5-8.5                                                     |
